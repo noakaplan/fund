@@ -179,7 +179,9 @@ a:visited:hover {
   left: 20px;
 }
 
-.rightNav{
-    position:relative;
+.img3 {
+  position: absolute;
+  z-index: 3;
 }
+
 
