@@ -5,7 +5,15 @@ body {
 	color: #302529;
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+    font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 p { 
@@ -21,7 +29,15 @@ p {
 .headline {
 	font-size:14px;
     line-height:19px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+    font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	color:#B163A3; 
 	font-weight:bold;
 }
@@ -37,7 +53,15 @@ td {
 
 .due { font-size:12px;
     line-height:16px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+    font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	color:#302529; 
 	font-style:italic;
 	font-weight:normal;
@@ -45,7 +69,15 @@ td {
 
 .date { font-size:10px;
     line-height:16px;
-	font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+	font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	color:#B163A3; 
 	font-style:normal;
 	font-weight:bold;
@@ -53,7 +85,15 @@ td {
 a:link { 
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+    font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	font-weight:bold;
 	color:#000000;/*119900;*/
 	text-decoration:none; 
@@ -62,17 +102,32 @@ a:link {
 a:hover { 
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+    font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	font-weight:bold;
-	background-color:#FFFF00;/*119900;*/
 	color:#000000;
-	text-decoration:none; 
+	text-decoration:underline; 
 }
 
 a:active { 
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+   font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	font-weight:bold;
 	color:#FF8800;
 	text-decoration:none; 
@@ -81,15 +136,21 @@ a:active {
 a:visited { 
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+   font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	font-weight:bold;
 	color:#000000;/*119900;*/
 	text-decoration:none; 
 }
 
 a:visited:hover {
-	background-color:#FFFF00; /*#1B6E0D;/*119900;*/
-	color:#3B100D;
 }
 
 
@@ -113,7 +174,15 @@ a:visited:hover {
 .selected {
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+    font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	font-weight:bold;
 	color:#696265; /*66AA00;
 	/*background-color:#F9F911;*/
@@ -132,7 +201,15 @@ a:visited:hover {
 	position: relative;
 	font-size:12px;
     line-height:18px;
-    font-family:Georgia,Times New Roman,serif; /*Georgia,Times New Roman,serif;*/
+   font-family: 'Sentinel Book';
+    src: font-url('sentinel-book-webfont.eot');
+    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('sentinel-book-webfont.woff2') format('woff2'),
+         font-url('sentinel-book-webfont.woff') format('woff'),
+         font-url('sentinel-book-webfont.ttf') format('truetype'),
+         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 	width: 550px;
 	background-color:#FFFFFF;
 	background-image:url(../img/weekbg.gif);
@@ -180,8 +257,36 @@ a:visited:hover {
 }
 
 .img3 {
-  position: absolute;
+ position: absolute;
+  top: 100px;
   z-index: 3;
+}
+
+.img4 {
+  position: absolute;
+  z-index: 4;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 100px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 
