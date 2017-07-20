@@ -3,39 +3,21 @@
 body {
 	background-color: #FFFFFF;
 	color: #302529;
-	font-size:12px;
-    line-height:18px;
-    font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+	font-size:16px;
+    line-height:20px;
+    letter-spacing:2px;
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 }
 
 p { 
 }
-/*
-.text {
-	font-size:11px;
-    line-height:17px;
-    font-family:Georgia,Times New Roman,serif;
-	color:#333333;
-}
-*/
+
 .headline {
-	font-size:14px;
+	font-size:16px;
     line-height:19px;
-    font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	color:#B163A3; 
@@ -43,7 +25,7 @@ p {
 }
 
 td {
-  font-size:12px;
+  font-size:16px;
 }
 
 .nohilite:hover {
@@ -51,15 +33,9 @@ td {
 	color:#000000;
 }
 
-.due { font-size:12px;
+.due { font-size:16px;
     line-height:16px;
-    font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	color:#302529; 
@@ -67,15 +43,9 @@ td {
 	font-weight:normal;
 }
 
-.date { font-size:10px;
+.date { font-size:16px;
     line-height:16px;
-	font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	color:#B163A3; 
@@ -83,15 +53,9 @@ td {
 	font-weight:bold;
 }
 a:link { 
-	font-size:12px;
+	font-size:16px;
     line-height:18px;
-    font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	font-weight:bold;
@@ -100,49 +64,29 @@ a:link {
 }
 
 a:hover { 
-	font-size:12px;
+	font-size:16px;
     line-height:18px;
-    font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	font-weight:bold;
-	color:#000000;
-	text-decoration:underline; 
+	color: cyan;
 }
 
 a:active { 
-	font-size:12px;
+	font-size:16px;
     line-height:18px;
-   font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	font-weight:bold;
-	color:#FF8800;
-	text-decoration:none; 
+	color: magenta;
 }
 
 a:visited { 
-	font-size:12px;
+	font-size:16px;
     line-height:18px;
-   font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	font-weight:bold;
@@ -167,20 +111,13 @@ a:visited:hover {
 	top: 200px; 
 	left: 0px;
 	width: 140px;
-	background-image:url(../img/leftbg.gif);
 	padding-left: 0px;
 }
 
 .selected {
-	font-size:12px;
+	font-size:16px;
     line-height:18px;
-    font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	font-weight:bold;
@@ -199,15 +136,9 @@ a:visited:hover {
 
 .weekhead {
 	position: relative;
-	font-size:12px;
+	font-size:16px;
     line-height:18px;
-   font-family: 'Sentinel Book';
-    src: font-url('sentinel-book-webfont.eot');
-    src: font-url('sentinel-book-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('sentinel-book-webfont.woff2') format('woff2'),
-         font-url('sentinel-book-webfont.woff') format('woff'),
-         font-url('sentinel-book-webfont.ttf') format('truetype'),
-         font-url('sentinel-book-webfont.svg#sentinelbook') format('svg');
+    font-family: 'Zilla Slab', serif;
     font-weight: normal;
     font-style: normal;
 	width: 550px;
@@ -253,7 +184,7 @@ a:visited:hover {
   position: absolute;
   z-index: 2;
   top: 20px;
-  left: 20px;
+  right: 20px;
 }
 
 .img3 {
@@ -270,7 +201,7 @@ a:visited:hover {
 ul {
     display: inline-block;
     list-style-type: none;
-    padding-left: 100px;
+    padding-left: 0px;
 }
 
 li {
@@ -286,7 +217,10 @@ li a {
 }
 
 li a:hover {
-    text-decoration: underline;
+    color: cyan;
 }
 
+li a:active {
+    color: magenta;
 
+}
