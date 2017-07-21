@@ -125,7 +125,7 @@ a:visited:hover {
 
 .introText{
     position:absolute;
-    padding: 5% 30% 10% 30%;
+    padding: 5% 28% 10% 28%;
     text-align: center;
     color: black;
     font-size: 6vw;
@@ -137,7 +137,7 @@ a:visited:hover {
   position:absolute;
   width: 80%;
   padding: 16.5%;
-  margin: 60 auto;
+  margin: 700 auto;
   z-index:10;
 }
 
