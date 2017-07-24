@@ -6,7 +6,7 @@ body {
 	font-size:100%;
     line-height:100%;
     letter-spacing:.1em;
-    font-family: 'Zilla Slab', serif;
+    font-family: sofia-pro-soft, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -21,7 +21,7 @@ a:link {
 
 a:hover { 
 	font-weight:bold;
-	color: cyan;
+	color: #78D2FF;
 }
 
 a:active { 
@@ -68,6 +68,15 @@ a:visited:hover {
   z-index: 4;
 }
 
+.img5 {
+  position: absolute;
+  width:10%;
+  left:50%;
+  margin-left:-5%;
+  margin-top:1.1%;
+  z-index: 5;
+}
+
 .ui {
   position:absolute;
   z-index:8;
@@ -94,18 +103,16 @@ a:visited:hover {
     padding: 2vw 2vw 2vw 2vw;
     text-align: center;
     font-size: 200%;
-    font-family: 'Zilla Slab', serif;
 }
 
 .button2{
     margin: 10 auto;
     padding:1vw 4vw 1vw 4vw;
     display:block;
-    background-color: cyan; 
+    background-color: #78D2FF; 
     border: 2px solid #222222;
     color: black;
     text-align: center;
-    font-family: 'Zilla Slab', serif;
     font-size:1em;
 }
 
@@ -203,11 +210,11 @@ li a {
 }
 
 li a:hover {
-    color: cyan;
+    color: #78D2FF;
 }
 
 li a:active {
-    color: magenta;
+    color: black;
 }
 
 
