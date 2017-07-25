@@ -63,19 +63,6 @@ li a:active {
     color: white;
 }
 
-
-
-.signin {
-    text-align: right;
-    margin:2% 2% 2% 2%;
-    padding:2% 2% 2% 2%;
-}
-
-
-.mainRunner {
-  position: relative;
-}
-
 .img1 {
   position: absolute;
   z-index: 3;
@@ -100,7 +87,6 @@ li a:active {
     z-index: 3;
 }
 
-
 .img4 {
  position: absolute;
  z-index: 0;
@@ -115,6 +101,17 @@ li a:active {
  left:50%;
  margin-left:-4.5%;
  margin-top:50%;
+}
+
+
+.mainRunner {
+  position: relative;
+}
+
+.signin {
+    text-align: right;
+    margin:2% 2% 2% 2%;
+    padding:2% 2% 2% 2%;
 }
 
 .aboutText {
@@ -152,20 +149,51 @@ li a:active {
 
 .content--prototype { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-align: left; padding-left: 8%; padding-right: 8%; margin-bottom: 12%; line-height: 1.5rem; }
 
-
-
 #optimIZR a {
   font-style: italic;
   font-size: 2.5vw;
 }
-#getstarted {
+
+.button {
   position: absolute;
-  width:10%;
+  width:20%;
   left:50%;
-  margin-left:-5%;
+  margin-left:-10%;
   margin-top:40%;
+  padding: 1%;
   z-index: 5;
-  z-index: 10;
+  font-size: 200%;
+  background-color: white;
+  border: none;
+  font-family: sofia-pro-soft, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
